@@ -1,0 +1,50 @@
+.card {
+  width: 230px;
+  height: 520px;
+  background: white;
+  box-shadow: 0px 1px 2px 1px lightgray;
+  overflow: hidden;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.upper_container_default {
+  height: 50px;
+  background-color: white;
+  border: 2px solid lightgray;
+}
+
+.upper_container_active {
+  background-color: #ddebee;
+  height: 50px;
+  border: 1px solid lightgray;
+}
+
+.lower_container {
+  height: 300px;
+  background: white;
+  text-align: center;
+}
+
+.lower_container__heading {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+
+.lower_container__description {
+  margin: 1rem;
+  font-size: 0.9rem;
+}
+
+.price_container {
+  text-align: center;
+  padding-top: 4.2rem;
+}
+
+.button_container {
+  display: flex;
+  align-self: center;
+  margin-bottom: 1rem;
+}

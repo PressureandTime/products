@@ -1,0 +1,38 @@
+.tabs {
+  list-style: none;
+
+  display: flex;
+}
+
+.tabs > li {
+  padding: 0.5em 1em;
+  margin: 0 1em;
+}
+
+.current {
+  background: white;
+  color: teal;
+  font-weight: bold;
+  border: 2px solid grey;
+  border-bottom: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  top: 2px;
+}
+
+
+.button_group_next {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.tab_container {
+  display: flex;
+  padding-top: 1.2rem;
+}
+
+.content {
+  width: 60%;
+}
